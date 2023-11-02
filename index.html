@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Modal</title>
+</head>
+
+<body>
+    <div class="button visible">
+        <button id="open-popup-btn" onclick="checkhandler()">Open Modal</button>
+    </div>
+    <div class="popup-overlay"></div>
+    <div class="popup hidden">
+        <h1>This is Modal</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor sint magnam voluptatum! Esse, autem natus.
+            Magni, consequatur. Laborum quidem repudiandae beatae ex eaque ipsam quisquam illo reiciendis, assumenda
+            numquam, id optio delectus expedita?</p>
+        <div class="popup-close-btn"><button onclick="checkhandler()">&times;</button></div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
